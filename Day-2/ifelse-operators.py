@@ -19,7 +19,7 @@ if(num > 0):
 elif(num == 0):
     print(f"The number {num} is Zero")
 else:
-    print(f"The number {num} Negative")
+    print(f"The number {num} is Negative")
 
 
 
@@ -29,9 +29,9 @@ num1 = int(input("Enter a 1st number: "))
 num2 = int(input("Enter a 2nd number: "))
 num3 = int(input("Enter a 3rd number: "))
 
-if(num1 > num2 and num1 > num3):
+if(num1 >= num2 and num1 >= num3):
     print(f"The number {num1} is largest number.")
-elif(num2 > num1 and num2 > num3):
+elif(num2 >= num1 and num2 >= num3):
     print(f"The number {num2} is largest number.")
 else:
     print(f"The number {num3} is largest number.")
@@ -54,9 +54,9 @@ lucky_marks = int(input("Enter A Marks: "))
 
 if(lucky_marks >= 90):
     print("A+ grade.")
-elif(lucky_marks > 60 and lucky_marks < 90):
+elif(lucky_marks >= 60):
     print("B grade.")
-elif(lucky_marks >= 35 and lucky_marks <= 60):
+elif(lucky_marks >= 35):
     print("C grade.")
 else:
     print("fail.")
